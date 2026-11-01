@@ -1,7 +1,7 @@
 # Local context model preview 0.12.25
 
 Source: EmailGrabber3-Mac-Context-Model-Preview-0.12.25.zip
-SHA256: 4cb0d594b9d7f7d914251cd05e19696a8b2a559bed8a9abfb2486b2cf263f474
+SHA256: fbcb58903b23c0e647ab269a7202cc9c5f60df0ea25d23f052f7040bd0b3edf7
 
 Actual trained logistic-regression starter using address fragments and saved surrounding text, with local Swift inference and no Python/app network dependency. Opt-in via Learning -> Use trained context model (preview); off by default because evidence is preliminary. Only unresolved addresses with valid published context are eligible; corrections and learned decisions win. Retains visible context for link-only observations without inventing recipients. Includes reproducible synthetic corpus, trainer and exported model; no user project/context/feedback is uploaded or used in training.
 
